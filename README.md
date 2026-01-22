@@ -2,7 +2,8 @@
 # Charvee Ravichandran
 Hi! I am Charvee. A doctoral student at Tata Institute of Fundamental Research, Mumbai, working with Dr. Maithreyi Narasimha. 
 
-![Alt text](https://github.com/charvee-ravichandran/charvee.ravichandran.github.io/blob/main/Profile photo_1.jpg)
+![Profile photo_1](https://github.com/user-attachments/assets/eaf16fef-ac42-4ba0-99c1-7b7703214a0f)
+
 
 ## Interests
 
