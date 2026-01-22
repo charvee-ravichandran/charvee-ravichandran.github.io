@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charvee Ravichandran</title>
+  <meta name="description" content="Academic profile website of Charvee Ravichandran." />
+  <style>
+    :root { --maxw: 900px; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+    header, main, footer {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header { padding-top: 40px; }
+    h1 { margin: 0 0 12px; font-size: 2rem; }
+    h2 { margin-top: 28px; font-size: 1.35rem; }
+    p { margin: 0 0 14px; }
+    img.profile {
+      display: block;
+      max-width: 260px;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      margin: 18px 0 8px;
+    }
+    .muted { color: #444; }
+    footer { padding-bottom: 48px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Charvee Ravichandran</h1>
+    <p>
+      Hi! I am Charvee. A doctoral student at Tata Institute of Fundamental Research, Mumbai,
+      working with Dr. Maithreyi Narasimha.
+    </p>
+
+    <img
+      class="profile"
+      src="https://github.com/user-attachments/assets/eaf16fef-ac42-4ba0-99c1-7b7703214a0f"
+      alt="Profile photo of Charvee Ravichandran"
+    />
+  </header>
+
+  <main>
+    <section aria-labelledby="interests">
+      <h2 id="interests">Interests</h2>
+      <p>
+        I am interested in understanding (i) how organs are sculpted and positioned within embryos
+        and (ii) the molecular origin of forces acting between and within tissues to affect each
+        other's behaviour during development. I study these in drosophila embryos.
+      </p>
+      <p>
+        They say, seeing is believing. So, I love to work with images that give us ideas about
+        protein/RNA localisation in cells/tissue and protein-protein interaction. I plan to base my
+        career on images, whether I last in academia or decide to move to the industry. One of my
+        aims is to also learn computational methods including machine learning to analyse images
+        (I am only a beginner in ML, So anyone who is willing to learn and practice with publicly
+        available datasets on similar research topics is most welcome to contact me).
+      </p>
+    </section>
+
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <p>
+        I did my Bachelors's and Masters's in Biology from the Indian Institute of Science Education
+        and Research, Pune. My schooling was done in Chennai at DAV Girls Senior Secondary School,
+        Gopalapuram.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted">© <span id="year"></span> Charvee Ravichandran</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
