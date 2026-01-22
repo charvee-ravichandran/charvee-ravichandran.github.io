@@ -20,36 +20,68 @@
       padding: 24px;
     }
     header { padding-top: 40px; }
-    h1 { margin: 0 0 12px; font-size: 2rem; }
+
+    /* Typography */
+    h1 { margin: 0 0 10px; font-size: 2rem; }
     h2 { margin-top: 28px; font-size: 1.35rem; }
-    p { margin: 0 0 14px; }
-    img.profile {
+    p  { margin: 0 0 14px; }
+
+    /* --- New: header layout (text + image side-by-side) --- */
+    .hero{
+      display: flex;
+      align-items: center;   /* vertical alignment */
+      justify-content: center;
+      gap: 28px;
+      flex-wrap: wrap;       /* stacks on small screens */
+      text-align: center;    /* centers name + one-liner */
+    }
+    .hero-text{
+      flex: 1 1 380px;       /* grows, min-ish width */
+      max-width: 520px;
+    }
+    .hero-text p{
+      margin: 0;             /* keep it as a one-liner block */
+    }
+    img.profile{
+      flex: 0 0 auto;
       display: block;
-      max-width: 260px;
-      width: 100%;
+      width: 260px;          /* fixed display size */
+      max-width: 90vw;       /* safe on very small screens */
       height: auto;
       border-radius: 14px;
-      margin: 18px 0 8px;
+      margin: 0;             /* remove old margins */
     }
+
     .muted { color: #444; }
     footer { padding-bottom: 48px; }
     a { color: inherit; }
+
+    /* Optional: slightly tighter layout on phones */
+    @media (max-width: 560px){
+      .hero{ gap: 16px; }
+      img.profile{ width: 220px; }
+      h1{ font-size: 1.8rem; }
+    }
   </style>
 </head>
+
 <body>
   <header>
-    <h1 style="text-align:center;">Charvee Ravichandran</h1>
-    <p>
-      Hi! I am Charvee. A doctoral student at Tata Institute of Fundamental Research, Mumbai,
-      working with Dr. Maithreyi Narasimha.
-    </p>
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Charvee Ravichandran</h1>
+        <p>
+          Hi! I am Charvee. A doctoral student at Tata Institute of Fundamental Research, Mumbai,
+          working with Dr. Maithreyi Narasimha.
+        </p>
+      </div>
 
-    <img 
-      style="text-align:center;"
-      class="profile"
-      src="https://github.com/user-attachments/assets/eaf16fef-ac42-4ba0-99c1-7b7703214a0f"
-      alt="Profile photo of Charvee Ravichandran"
-    />
+      <img
+        class="profile"
+        src="https://github.com/user-attachments/assets/eaf16fef-ac42-4ba0-99c1-7b7703214a0f"
+        alt="Profile photo of Charvee Ravichandran"
+      />
+    </div>
   </header>
 
   <main>
@@ -89,4 +121,3 @@
   </script>
 </body>
 </html>
-
