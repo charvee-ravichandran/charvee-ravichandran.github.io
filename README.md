@@ -1,4 +1,3 @@
-# charvee.ravichandran.github.io
 # Charvee Ravichandran
 Hi! I am Charvee. A doctoral student at Tata Institute of Fundamental Research, Mumbai, working with Dr. Maithreyi Narasimha. 
 
