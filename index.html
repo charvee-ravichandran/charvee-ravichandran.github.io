@@ -3,124 +3,545 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Charvee Ravichandran</title>
-  <meta name="description" content="Academic profile website of Charvee Ravichandran." />
+  <meta name="google-site-verification" content="dHKU0HulW1hsB06EqbsdmqKBVc_TNiLKQjY7X-AQp-E" />
+  <title>Charvee Ravichandran | PhD Researcher in Mechanobiology at TIFR Mumbai</title>
+  <meta name="author" content="Charvee Ravichandran" />
+  <meta name="description" content="Charvee Ravichandran is a doctoral student at TIFR Mumbai working on mechanobiology, developmental biology, Drosophila embryogenesis, tissue morphogenesis, and quantitative imaging." />
+  <link rel="canonical" href="https://charvee-ravichandran.github.io/minimal/" />
+  <meta name="theme-color" content="#2b5a42" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Charvee Ravichandran | PhD Researcher in Mechanobiology at TIFR Mumbai" />
+  <meta property="og:description" content="Doctoral student at TIFR Mumbai working on mechanobiology, developmental biology, Drosophila embryogenesis, tissue morphogenesis, and quantitative imaging." />
+  <meta property="og:url" content="https://charvee-ravichandran.github.io/minimal/" />
+  <meta property="og:image" content="https://charvee-ravichandran.github.io/R_Charvee.jpeg" />
+  <meta property="profile:first_name" content="Charvee" />
+  <meta property="profile:last_name" content="Ravichandran" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Charvee Ravichandran | PhD Researcher in Mechanobiology at TIFR Mumbai" />
+  <meta name="twitter:description" content="Doctoral student at TIFR Mumbai working on mechanobiology, developmental biology, Drosophila embryogenesis, tissue morphogenesis, and quantitative imaging." />
+  <meta name="twitter:image" content="https://charvee-ravichandran.github.io/R_Charvee.jpeg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "dateModified": "2026-05-03T00:00:00Z",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Charvee Ravichandran",
+      "givenName": "Charvee",
+      "familyName": "Ravichandran",
+      "url": "https://charvee-ravichandran.github.io/",
+      "image": "https://charvee-ravichandran.github.io/R_Charvee.jpeg",
+      "description": "Doctoral student at Tata Institute of Fundamental Research, Mumbai, working on mechanobiology, developmental biology, Drosophila embryogenesis, tissue morphogenesis, and quantitative imaging.",
+      "jobTitle": "Doctoral Student",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Tata Institute of Fundamental Research",
+        "url": "https://www.tifr.res.in/"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Indian Institute of Science Education and Research Pune",
+        "url": "https://www.iiserpune.ac.in/"
+      },
+      "award": [
+        "iGEM Silver Medal at the 2017 Giant Jamboree",
+        "CSIR-UGC NET All India Rank 49",
+        "INSPIRE Scholar"
+      ],
+      "knowsAbout": [
+        "Mechanobiology",
+        "Developmental biology",
+        "Tissue morphogenesis",
+        "Drosophila embryogenesis",
+        "Cell-extracellular matrix interactions",
+        "Integrin biology",
+        "Quantitative imaging",
+        "Microscopy",
+        "Image analysis",
+        "Nuclear mechanobiology",
+        "Cancer mechanobiology",
+        "Synthetic biology",
+        "Science outreach"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/charvee-ravichandran/"
+      ],
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "name": "The effect of mechanical interactions between fibroblasts and epithelial cells in tumour initiation in a 3D collagen matrix",
+          "url": "http://dr.iiserpune.ac.in:8080/xmlui/handle/123456789/4834"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "IISER Pune iGEM team wins silver medal in Boston",
+          "url": "https://www.iiserpune.ac.in/news/post/iiser-pune-igem-team-wins-silver-medal-in-boston/86"
+        }
+      ]
+    }
+  }
+  </script>
   <style>
-    :root { --maxw: 900px; }
+    :root {
+      --bg: #fffdf8;
+      --ink: #1e241f;
+      --muted: #667068;
+      --line: #e3ddd3;
+      --accent: #2b5a42;
+      --accent-soft: #f2f6f3;
+      --maxw: 900px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      line-height: 1.6;
-      color: #111;
-      background: #fff;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.56;
     }
-    header, main, footer {
-      max-width: var(--maxw);
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover {
+      color: #173927;
+    }
+
+    .page {
+      width: min(100%, var(--maxw));
       margin: 0 auto;
-      padding: 24px;
+      padding: 38px 24px 52px;
     }
-    header { padding-top: 40px; }
 
-    /* Typography */
-    h1 { margin: 0 0 10px; font-size: 2rem; }
-    h2 { margin-top: 28px; font-size: 1.35rem; }
-    p  { margin: 0 0 14px; }
-
-    /* --- New: header layout (text + image side-by-side) --- */
-    .hero{
-      display: flex;
-      align-items: center;   /* vertical alignment */
-      justify-content: center;
+    .profile {
+      display: grid;
+      grid-template-columns: 176px minmax(0, 1fr);
       gap: 28px;
-      flex-wrap: wrap;       /* stacks on small screens */
-      text-align: center;    /* centers name + one-liner */
+      align-items: start;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
     }
-    .hero-text{
-      flex: 1 1 380px;       /* grows, min-ish width */
-      max-width: 520px;
+
+    .portrait {
+      margin: 0;
+      width: 176px;
+      aspect-ratio: 4 / 5;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      overflow: hidden;
+      background: #f0ebe3;
     }
-    .hero-text p{
-      margin: 0;             /* keep it as a one-liner block */
-    }
-    img.profile{
-      flex: 0 0 auto;
+
+    .portrait img {
       display: block;
-      width: 260px;          /* fixed display size */
-      max-width: 90vw;       /* safe on very small screens */
-      height: auto;
-      border-radius: 14px;
-      margin: 0;             /* remove old margins */
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 42% 31%;
     }
 
-    .muted { color: #444; }
-    footer { padding-bottom: 48px; }
-    a { color: inherit; }
+    h1,
+    h2,
+    h3,
+    p,
+    dl,
+    dd {
+      margin-top: 0;
+    }
 
-    /* Optional: slightly tighter layout on phones */
-    @media (max-width: 560px){
-      .hero{ gap: 16px; }
-      img.profile{ width: 220px; }
-      h1{ font-size: 1.8rem; }
+    h1 {
+      margin-bottom: 8px;
+      font-size: 2.15rem;
+      line-height: 1.12;
+      font-weight: 700;
+      letter-spacing: 0;
+      overflow-wrap: break-word;
+    }
+
+    h2 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 1.15rem;
+      line-height: 1.28;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin-bottom: 4px;
+      font-size: 1rem;
+      line-height: 1.3;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .eyebrow {
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .lead {
+      max-width: 620px;
+      color: #2f3832;
+      font-size: 1.02rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      margin-top: 15px;
+      font-size: 0.95rem;
+    }
+
+    .links a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 20px 0 0;
+      padding: 18px 0 4px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .highlights div {
+      min-width: 0;
+    }
+
+    .highlights dt {
+      margin-bottom: 3px;
+      color: var(--ink);
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .highlights dd {
+      margin-left: 0;
+    }
+
+    main {
+      margin-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 28px;
+      padding: 25px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-child {
+      border-bottom: 0;
+    }
+
+    .section-note {
+      margin-bottom: 14px;
+      color: var(--muted);
+    }
+
+    .entry {
+      padding-bottom: 16px;
+    }
+
+    .entry + .entry {
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+    }
+
+    .entry p:last-child {
+      margin-bottom: 0;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 7px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 7px;
+      border-radius: 4px;
+      color: var(--accent);
+      background: var(--accent-soft);
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .list {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list li {
+      display: grid;
+      grid-template-columns: 54px minmax(0, 1fr);
+      gap: 12px;
+      align-items: baseline;
+    }
+
+    time {
+      color: var(--accent);
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    footer {
+      padding-top: 22px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        padding: 28px 20px 44px;
+      }
+
+      .profile {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .portrait {
+        width: 148px;
+      }
+
+      .highlights,
+      section {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        gap: 10px;
+        padding: 23px 0;
+      }
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <h1 style="text-align:center;">Charvee Ravichandran</h1>
-  </header>  
-  <header>
-    <div class="hero">
-      <div class="hero-text">
-        <p>
+  <div class="page">
+    <header class="profile">
+      <figure class="portrait">
+        <img src="../R_Charvee.jpeg" alt="Profile photo of Charvee Ravichandran" />
+      </figure>
+
+      <div>
+        <h1>Charvee Ravichandran</h1>
+        <p class="lead">
           Hi! I am Charvee. A doctoral student at Tata Institute of Fundamental Research, Mumbai,
           working with Dr. Maithreyi Narasimha.
         </p>
+        <nav class="links" aria-label="Primary navigation">
+          <a href="#interests">Interests</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#talks">Talks</a>
+          <a href="#conferences">Conferences</a>
+          <a href="#outreach">Outreach</a>
+          <a href="https://www.linkedin.com/in/charvee-ravichandran/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </nav>
       </div>
+    </header>
 
-      <img
-        class="profile"
-        src="https://github.com/user-attachments/assets/eaf16fef-ac42-4ba0-99c1-7b7703214a0f"
-        alt="Profile photo of Charvee Ravichandran"
-      />
-    </div>
-  </header>
+    <dl class="highlights" aria-label="Profile highlights">
+      <div>
+        <dt>Current focus</dt>
+        <dd>Cell-ECM interactions and tissue movement in developing Drosophila embryos.</dd>
+      </div>
+      <div>
+        <dt>Education</dt>
+        <dd>BS-MS in Biology from IISER Pune, followed by doctoral research at TIFR Mumbai.</dd>
+      </div>
+      <div>
+        <dt>Methods</dt>
+        <dd>Microscopy, quantitative image analysis, cell biology, Python, and MATLAB.</dd>
+      </div>
+    </dl>
 
-  <main>
-    <section aria-labelledby="interests">
-      <h2 id="interests">Interests</h2>
-      <p>
-        I am interested in understanding (i) how organs are sculpted and positioned within embryos
-        and (ii) the molecular origin of forces acting between and within tissues to affect each
-        other's behaviour during development. I study these in drosophila embryos.
-      </p>
-      <p>
-        They say, seeing is believing. So, I love to work with images that give us ideas about
-        protein/RNA localisation in cells/tissue and protein-protein interaction. I plan to base my
-        career on images, whether I last in academia or decide to move to the industry. One of my
-        aims is to also learn computational methods including machine learning to analyse images
-        (I am only a beginner in ML, So anyone who is willing to learn and practice with publicly
-        available datasets on similar research topics is most welcome to contact me).
-      </p>
-    </section>
+    <main>
+      <section id="interests" aria-labelledby="interests-title">
+        <h2 id="interests-title">Interests</h2>
+        <div>
+          <p>
+            I am interested in understanding (i) how organs are sculpted and positioned within embryos
+            and (ii) the molecular origin of forces acting between and within tissues to affect each
+            other's behaviour during development. I study these in drosophila embryos.
+          </p>
+          <p>
+            They say, seeing is believing. So, I love to work with images that give us ideas about
+            protein/RNA localisation in cells/tissue and protein-protein interaction. I plan to base my
+            career on images, whether I last in academia or decide to move to the industry. One of my
+            aims is to also learn computational methods including machine learning to analyse images
+            (I am only a beginner in ML, So anyone who is willing to learn and practice with publicly
+            available datasets on similar research topics is most welcome to contact me).
+          </p>
+        </div>
+      </section>
 
-    <section aria-labelledby="education">
-      <h2 id="education">Education</h2>
-      <p>
-        I did my Bachelors's and Masters's in Biology from the Indian Institute of Science Education
-        and Research, Pune. My schooling was done in Chennai at DAV Girls Senior Secondary School,
-        Gopalapuram.
-      </p>
-    </section>
-  </main>
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <p>
+          I'm currently pursuing my doctoral degree at the Tata Institute of Fundamental Research, Mumbai.
+          I did my Bachelors's and Masters's in Biology from the Indian Institute of Science Education
+          and Research, Pune. My schooling was done in Chennai at DAV Girls Senior Secondary School,
+          Gopalapuram.
+        </p>
+      </section>
 
-  <footer>
-    <p class="muted">© <span id="year"></span> Charvee Ravichandran</p>
-  </footer>
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div>
+          <p class="section-note">
+            A few projects that shaped the way I think about forces, tissues, cells, and images.
+          </p>
+
+          <article class="entry">
+            <div class="meta">
+              <span class="tag">TIFR Mumbai</span>
+              <span class="tag">PhD research</span>
+            </div>
+            <h3>Cell-matrix interactions during tissue unfolding</h3>
+            <p>
+              My doctoral work studies how cells connect to the surrounding extracellular matrix, and how those connections help tissues move during germband retraction in Drosophila embryos. The project brings together developmental biology, mechanics, and image-based analysis of living tissues.
+            </p>
+          </article>
+
+          <article class="entry">
+            <div class="meta">
+              <span class="tag">NUS</span>
+              <span class="tag">Internship + thesis</span>
+            </div>
+            <h3>NUS internship and thesis in 3D collagen models</h3>
+            <p>
+              At the Mechanobiology Institute, National University of Singapore, I worked on co-culture systems and later developed my master's thesis around how mechanical interactions between fibroblasts and epithelial cells can change epithelial cell shape and nuclear behaviour in a wound-like 3D environment.
+            </p>
+            <p><a href="http://dr.iiserpune.ac.in:8080/xmlui/handle/123456789/4834" target="_blank" rel="noreferrer">Master's thesis</a></p>
+          </article>
+
+          <article class="entry">
+            <div class="meta">
+              <span class="tag">IISER Pune</span>
+              <span class="tag">Research foundations</span>
+            </div>
+            <h3>Nuclear and cellular mechanobiology</h3>
+            <p>
+              During my BS-MS years, I worked on cellular models for nuclear mechanobiology, studied stem-cell differentiation, and explored how physical constraints and cell state can affect cellular behaviour. These projects built the experimental base for my later work on tissue mechanics.
+            </p>
+          </article>
+
+          <article class="entry">
+            <div class="meta">
+              <span class="tag">iGEM 2017</span>
+              <span class="tag">Silver medal</span>
+            </div>
+            <h3>TB or Not TB</h3>
+            <p>
+              As part of the IISER Pune iGEM team, I helped represent the institute at the Giant Jamboree in Boston. The team worked on a synthetic biology approach for faster and more accessible tuberculosis diagnostics, and won a silver medal.
+            </p>
+            <p><a href="https://www.iiserpune.ac.in/news/post/iiser-pune-igem-team-wins-silver-medal-in-boston/86" target="_blank" rel="noreferrer">iGEM coverage</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="talks" aria-labelledby="talks-title">
+        <h2 id="talks-title">Posters and Talks</h2>
+        <ul class="list">
+          <li><time>2025</time><span>Poster at InSDB-ISD Joint Meeting, IISER Berhampur.</span></li>
+          <li><time>2025</time><span>Short talk at 2025 Mechanobiology Conference III, ICISE, Quy Nhon, Vietnam.</span></li>
+          <li><time>2024</time><span>Poster at DBS Annual Talks, TIFR Mumbai.</span></li>
+          <li><time>2023</time><span>Poster at Indian Drosophila Research Conference, IISER Trivandrum.</span></li>
+          <li><time>2023</time><span>Poster at Bangalore Microscopy Course, NCBS Bangalore.</span></li>
+          <li><time>2023</time><span>Poster at DBS Annual Talks, TIFR Mumbai.</span></li>
+        </ul>
+      </section>
+
+      <section id="conferences" aria-labelledby="conferences-title">
+        <h2 id="conferences-title">Conferences</h2>
+        <ul class="list">
+          <li><time>2025</time><span>InSDB-ISD Joint Meeting, IISER Berhampur.</span></li>
+          <li><time>2025</time><span>2025 Mechanobiology Conference III, ICISE, Quy Nhon, Vietnam.</span></li>
+          <li><time>2023</time><span>Indian Drosophila Research Conference, IISER Trivandrum.</span></li>
+          <li><time>2023</time><span>Bangalore Microscopy Course, NCBS Bangalore.</span></li>
+          <li><time>2020</time><span>Phenotypic Heterogeneity in Cancer, IISc Bangalore.</span></li>
+          <li><time>2019</time><span>Genomes and AI, NUS Singapore.</span></li>
+        </ul>
+      </section>
+
+      <section id="outreach" aria-labelledby="outreach-title">
+        <h2 id="outreach-title">Science Outreach</h2>
+        <div>
+          <p class="section-note">
+            Public science communication and hands-on demonstrations.
+          </p>
+
+          <article class="entry">
+            <h3>National Science Day</h3>
+            <p>
+              In 2022, I participated in organising and conducting interactive science demonstrations in TIFR's National Science Day outreach programme.
+            </p>
+          </article>
+
+          <article class="entry">
+            <h3>Chai and Why</h3>
+            <p>
+              In 2023, I gave a public talk titled "Building living structures" for the TIFR outreach initiative "Chai and Why".
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Charvee Ravichandran</p>
+    </footer>
+  </div>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
-
